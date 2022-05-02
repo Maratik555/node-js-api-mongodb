@@ -1,0 +1,32 @@
+{
+  "name": "node-js-mongodb",
+  "version": "1.0.0",
+  "description": "node js rest api full mongodb",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "js",
+    "rest",
+    "api",
+    "mongodb",
+    "fullstack"
+  ],
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "author": "Marat",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.3.1"
+  },
+  "engines": {
+    "node": "16.13.2"
+  }
+}
